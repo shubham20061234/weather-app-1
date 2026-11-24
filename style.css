@@ -1,0 +1,86 @@
+
+/* Basic page design */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaf4ff;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Main app box */
+.app {
+    background-color: white;
+    width: 350px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Heading */
+h1 {
+    color: #2874a6;
+}
+
+/* Search section */
+.search {
+    display: flex;
+    gap: 8px;
+}
+
+input {
+    width: 65%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Search button */
+button {
+    padding: 10px;
+    background-color: #2874a6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1b4f72;
+}
+
+/* Weather details */
+.weather {
+    margin-top: 20px;
+}
+
+.weather img {
+    width: 80px;
+    height: 80px;
+}
+
+.weather h3 {
+    font-size: 30px;
+    color: #2874a6;
+}
+
+.details {
+    background-color: #f0f7ff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Hide weather before searching */
+.hidden {
+    display: none;
+}
+
+/* Message */
+#message {
+    color: red;
+}
